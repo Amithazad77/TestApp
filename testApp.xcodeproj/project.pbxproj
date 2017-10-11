@@ -96,8 +96,8 @@
 				TargetAttributes = {
 					B49568B51F8E5B8D00CE0FE4 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2SKZW98STW;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9FG3JA6GJU;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -261,11 +261,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2SKZW98STW;
+				DEVELOPMENT_TEAM = 9FG3JA6GJU;
 				INFOPLIST_FILE = testApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sasken.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0d4263af-da59-4716-967c-775b93effa7b";
+				PROVISIONING_PROFILE_SPECIFIER = Kapsch;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +276,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2SKZW98STW;
+				DEVELOPMENT_TEAM = 9FG3JA6GJU;
 				INFOPLIST_FILE = testApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sasken.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0d4263af-da59-4716-967c-775b93effa7b";
+				PROVISIONING_PROFILE_SPECIFIER = Kapsch;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
