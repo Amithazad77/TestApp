@@ -261,13 +261,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 9FG3JA6GJU;
 				INFOPLIST_FILE = testApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sasken.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0d4263af-da59-4716-967c-775b93effa7b";
-				PROVISIONING_PROFILE_SPECIFIER = Kapsch;
+				PROVISIONING_PROFILE = "5614e85f-6c6f-4c4a-8d32-37c5600b6a43";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: com.sasken.*";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,13 +277,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = 9FG3JA6GJU;
 				INFOPLIST_FILE = testApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sasken.testApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0d4263af-da59-4716-967c-775b93effa7b";
-				PROVISIONING_PROFILE_SPECIFIER = Kapsch;
+				PROVISIONING_PROFILE = "5614e85f-6c6f-4c4a-8d32-37c5600b6a43";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Ad Hoc: com.sasken.*";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
